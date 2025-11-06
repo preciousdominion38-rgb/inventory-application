@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "quantity": 25,
+    "createdAt": "2025-11-05T10:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Office Chair",
+    "category": "Furniture",
+    "quantity": 12,
+    "createdAt": "2025-11-05T10:05:00.000Z"
+  }
+]

@@ -1,0 +1,18 @@
+<section class="add-item">
+  <h2>Add New Item</h2>
+  <form action="/add" method="POST">
+    <label>Name:</label>
+    <input type="text" name="name" required />
+
+    <label>Category:</label>
+    <input type="text" name="category" required />
+
+    <label>Quantity:</label>
+    <input type="number" name="quantity" min="1" required />
+
+    <label>Price ($):</label>
+    <input type="number" name="price" min="0" step="0.01" required />
+
+    <button type="submit">Add Item</button>
+  </form>
+</section>
