@@ -2,7 +2,7 @@
   "name": "neo-inventory-app",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "dependencies": {
     "accepts": "^2.0.0",
     "async": "^3.2.6",
@@ -98,7 +98,7 @@
     "wrappy": "^1.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
